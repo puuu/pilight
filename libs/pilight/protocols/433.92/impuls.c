@@ -31,7 +31,7 @@
 #include "impuls.h"
 
 #define PULSE_MULTIPLIER	3
-#define MIN_PULSE_LENGTH	130
+#define MIN_PULSE_LENGTH	160
 #define MAX_PULSE_LENGTH	170
 #define AVG_PULSE_LENGTH	150
 #define RAW_LENGTH				50
