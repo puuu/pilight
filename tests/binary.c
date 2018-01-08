@@ -96,7 +96,7 @@ static void test_binary(CuTest *tc) {
 		binary[i] = i % 2 == 0;
 	}
 	CuAssertULongEquals(tc, 6148914691236517205, binToDecUl(binary, 0, 63));
-	CuAssertULongEquals(tc, 3074457345618258602, binToDecRevUl(binary, 0, 63));
+	CuAssertULongEquals(tc, 12297829382473034410U, binToDecRevUl(binary, 0, 63));
 
 	CuAssertULongEquals(tc, 63, decToBinUl(12297829382473034410U, binary));
 
